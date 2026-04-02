@@ -1,0 +1,25 @@
+DESeq2 summary
+====================
+Samples:
+  sample condition
+1    AE1    aerial
+2    AE2    aerial
+3    AE3    aerial
+4    RT1      root
+5    RT2      root
+6    RT3      root
+Results summary:
+
+out of 6643 with nonzero total read count
+adjusted p-value < 0.1
+LFC > 0 (up)       : 1482, 22%
+LFC < 0 (down)     : 1471, 22%
+outliers [1]       : 1, 0.015%
+low counts [2]     : 129, 1.9%
+(mean count < 3)
+[1] see 'cooksCutoff' argument of ?results
+[2] see 'independentFiltering' argument of ?results
+
+NULL
+
+Significant genes (padj < 0.05 and |log2FC| >= 1):  1370 

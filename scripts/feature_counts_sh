@@ -1,0 +1,72 @@
+
+#!/bin/bash
+set -euo pipefail
+
+# =========================
+# Paths
+# =========================
+PROJECT="/mnt/d/GIS/yeast_metabolomics_2017"
+ALIGNDIR="$PROJECT/alignments"
+COUNTDIR="$PROJECT/counts"
+LOGDIR="$PROJECT/logs"
+LOG="$LOGDIR/featurecounts.log"
+
+# Annotation
+ANNOT="$PROJECT/ref/downloads/sacCer3.gtf"
+
+mkdir -p "$COUNTDIR" "$LOGDIR"
+
+# =========================
+# Timer
+# =========================
+START=$(date +%s)
+
+echo "=== FEATURECOUNTS START ===" | tee -a "$LOG"
+date | tee -a "$LOG"
+echo "ALIGNDIR=$ALIGNDIR" | tee -a "$LOG"
+echo "COUNTDIR=$COUNTDIR" | tee -a "$LOG"
+echo "ANNOT=$ANNOT" | tee -a "$LOG"
+echo | tee -a "$LOG"
+
+# =========================
+# Checks
+# =========================
+if [[ ! -f "$ANNOT" ]]; then
+    echo "ERROR: Annotation file not found: $ANNOT" | tee -a "$LOG"
+    exit 1
+fi
+
+if ! compgen -G "$ALIGNDIR/*.sorted.bam" > /dev/null; then
+    echo "ERROR: No sorted BAM files found in $ALIGNDIR" | tee -a "$LOG"
+    exit 1
+fi
+
+# =========================
+# Run featureCounts
+# =========================
+echo "Running featureCounts..." | tee -a "$LOG"
+
+featureCounts \
+  -T 10 \
+  -F GTF \
+  -t exon \
+  -g gene_id \
+  -p \
+  -B \
+  -C \
+  -s 2 \
+  -a "$ANNOT" \
+  -o "$COUNTDIR/gene_counts.txt" \
+  "$ALIGNDIR"/*.sorted.bam \
+  >> "$LOG" 2>&1
+
+END=$(date +%s)
+MINUTES=$(( (END - START) / 60 ))
+
+echo | tee -a "$LOG"
+echo "=== FEATURECOUNTS DONE ===" | tee -a "$LOG"
+date | tee -a "$LOG"
+echo "Time: ${MINUTES} minute(s)" | tee -a "$LOG"
+echo "Counts file: $COUNTDIR/gene_counts.txt" | tee -a "$LOG"
+echo "Summary file: $COUNTDIR/gene_counts.txt.summary" | tee -a "$LOG"
+

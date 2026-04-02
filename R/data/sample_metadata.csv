@@ -1,0 +1,7 @@
+sample,condition,read1,read2
+AE1,aerial,raw_fastq/SRR5482575_1.fastq.gz,raw_fastq/SRR5482575_2.fastq.gz
+AE2,aerial,raw_fastq/SRR5482576_1.fastq.gz,raw_fastq/SRR5482576_2.fastq.gz
+AE3,aerial,raw_fastq/SRR5482577_1.fastq.gz,raw_fastq/SRR5482577_2.fastq.gz
+RT1,root,raw_fastq/SRR5482578_1.fastq.gz,raw_fastq/SRR5482578_2.fastq.gz
+RT2,root,raw_fastq/SRR5482579_1.fastq.gz,raw_fastq/SRR5482579_2.fastq.gz
+RT3,root,raw_fastq/SRR5482580_1.fastq.gz,raw_fastq/SRR5482580_2.fastq.gz

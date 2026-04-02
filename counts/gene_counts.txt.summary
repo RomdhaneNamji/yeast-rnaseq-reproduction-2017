@@ -1,0 +1,15 @@
+Status	/mnt/d/GIS/yeast_metabolomics_2017/alignments/AE1.sorted.bam	/mnt/d/GIS/yeast_metabolomics_2017/alignments/AE2.sorted.bam	/mnt/d/GIS/yeast_metabolomics_2017/alignments/AE3.sorted.bam	/mnt/d/GIS/yeast_metabolomics_2017/alignments/RT1.sorted.bam	/mnt/d/GIS/yeast_metabolomics_2017/alignments/RT2.sorted.bam	/mnt/d/GIS/yeast_metabolomics_2017/alignments/RT3.sorted.bam
+Assigned	37947670	33185269	32679161	36075990	35777226	37542755
+Unassigned_Unmapped	2487460	1868658	3144397	2020134	2069530	2492748
+Unassigned_Read_Type	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	5082157	4069363	7072643	5057696	4707077	5493287
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	2721173	2562315	2051426	2252679	2333269	2416065
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	410883	519633	722843	522411	544627	513206

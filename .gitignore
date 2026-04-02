@@ -1,0 +1,31 @@
+# Raw sequencing data
+raw_fastq/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+
+# Alignment files
+alignments/
+*.bam
+*.bai
+*.sam
+
+# Reference indexes
+ref/index/
+*.ht2
+
+# Temporary / logs
+tmp/
+logs/
+*.log
+
+# R session / history
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS/editor files
+.DS_Store
+Thumbs.db

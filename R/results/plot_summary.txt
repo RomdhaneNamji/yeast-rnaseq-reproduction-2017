@@ -1,0 +1,38 @@
+Plot summary
+============
+Samples:
+  sample condition
+1    AE1    aerial
+2    AE2    aerial
+3    AE3    aerial
+4    RT1      root
+5    RT2      root
+6    RT3      root
+
+Genes after filtering: 6643 
+Significant genes (padj < 0.05): 2532 
+Top root-up gene examples:
+             GeneClean log2FoldChange         padj
+gene:YHR173C   YHR173C       3.985378 2.950213e-02
+gene:YML123C   YML123C       3.718654 6.382789e-28
+gene:YHR092C   YHR092C       3.529956 6.643755e-45
+gene:YMR244W   YMR244W       3.488917 4.835015e-18
+gene:YOR375C   YOR375C       3.267611 6.290950e-12
+gene:YOL058W   YOL058W       3.240259 2.677172e-36
+gene:YNL142W   YNL142W       3.223486 7.080821e-13
+gene:YKL029C   YKL029C       3.058071 1.018321e-24
+gene:YPR138C   YPR138C       3.016472 6.864835e-22
+gene:YLR413W   YLR413W       2.914800 3.911726e-11
+
+Top aerial-up gene examples:
+               GeneClean log2FoldChange         padj
+gene:YER147C-A YER147C-A      -4.872492 9.285226e-03
+gene:YNL210W     YNL210W      -4.111013 3.924555e-27
+gene:YJL136W-A YJL136W-A      -3.940724 4.872948e-02
+gene:YMR133W     YMR133W      -3.685668 5.373965e-73
+gene:YKL225W     YKL225W      -3.674543 1.963474e-02
+gene:YDR446W     YDR446W      -3.621269 6.623393e-16
+gene:ITS2-2       ITS2-2      -3.598528 1.952976e-02
+gene:YMR101C     YMR101C      -3.534744 3.326851e-31
+gene:YPR007C     YPR007C      -3.498873 9.296552e-76
+gene:YPL121C     YPL121C      -3.493119 7.050845e-19

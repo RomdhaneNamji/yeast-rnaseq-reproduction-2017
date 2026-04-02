@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR5482575_1	/home/romdhane/yeast_qc_tmp/qc/fastqc_raw/SRR5482575_1_fastqc.zip
+FastQC	all_sections	SRR5482575_2	/home/romdhane/yeast_qc_tmp/qc/fastqc_raw/SRR5482575_2_fastqc.zip
+FastQC	all_sections	SRR5482576_1	/home/romdhane/yeast_qc_tmp/qc/fastqc_raw/SRR5482576_1_fastqc.zip
+FastQC	all_sections	SRR5482576_2	/home/romdhane/yeast_qc_tmp/qc/fastqc_raw/SRR5482576_2_fastqc.zip
+FastQC	all_sections	SRR5482577_1	/home/romdhane/yeast_qc_tmp/qc/fastqc_raw/SRR5482577_1_fastqc.zip
+FastQC	all_sections	SRR5482577_2	/home/romdhane/yeast_qc_tmp/qc/fastqc_raw/SRR5482577_2_fastqc.zip
+FastQC	all_sections	SRR5482578_1	/home/romdhane/yeast_qc_tmp/qc/fastqc_raw/SRR5482578_1_fastqc.zip
+FastQC	all_sections	SRR5482578_2	/home/romdhane/yeast_qc_tmp/qc/fastqc_raw/SRR5482578_2_fastqc.zip
+FastQC	all_sections	SRR5482579_1	/home/romdhane/yeast_qc_tmp/qc/fastqc_raw/SRR5482579_1_fastqc.zip
+FastQC	all_sections	SRR5482579_2	/home/romdhane/yeast_qc_tmp/qc/fastqc_raw/SRR5482579_2_fastqc.zip
+FastQC	all_sections	SRR5482580_1	/home/romdhane/yeast_qc_tmp/qc/fastqc_raw/SRR5482580_1_fastqc.zip
+FastQC	all_sections	SRR5482580_2	/home/romdhane/yeast_qc_tmp/qc/fastqc_raw/SRR5482580_2_fastqc.zip
